@@ -12,7 +12,7 @@ export const featuredProjects = [
     title: 'Gestor de proyectos y tiempos',
     technologySummary: 'Laravel 12 · PHP · Blade',
     illustrationClassName: 'project-card__illustration--laravel',
-    illustrationSymbol: '{ / }',
+    iconUrl: `${import.meta.env.BASE_URL}icons/clipboard-list.svg`,
     categoryLabel: 'Aplicación web',
     description: 'Aplicación web para centralizar la gestión de clientes, proyectos y tickets, y registrar el tiempo dedicado a cada tarea. Desarrollada con Laravel 12, PHP y vistas Blade, incluye información diferenciada para gestores, desarrolladores y clientes.',
     features: [
@@ -30,7 +30,7 @@ export const featuredProjects = [
     title: 'Laravel React',
     technologySummary: 'React · TypeScript · Laravel · Inertia',
     illustrationClassName: 'project-card__illustration--react',
-    illustrationSymbol: '< />',
+    iconUrl: `${import.meta.env.BASE_URL}icons/library.svg`,
     categoryLabel: 'Proyecto de aprendizaje',
     description: 'Aplicación web de gestión de animes con una interfaz desarrollada en React y TypeScript, conectada a Laravel mediante Inertia. Permite mantener un catálogo de títulos y consultar los animes asociados a cada editorial.',
     features: [
@@ -47,7 +47,7 @@ export const featuredProjects = [
     title: 'AppMovilesCompras',
     technologySummary: 'Android · Java · Firebase · SQLite',
     illustrationClassName: 'project-card__illustration--android',
-    illustrationSymbol: '[ : ]',
+    iconUrl: `${import.meta.env.BASE_URL}icons/shopping-basket.svg`,
     categoryLabel: 'Aplicación Android',
     description: 'Aplicación nativa de Android para organizar listas de la compra y sus productos. Desarrollada en Java, combina listas almacenadas en Firebase Realtime Database con listas locales guardadas en SQLite.',
     features: [
@@ -65,7 +65,7 @@ export const featuredProjects = [
     title: 'Doceragnum',
     technologySummary: 'Unity 6 · C# · 2D',
     illustrationClassName: 'project-card__illustration--game',
-    illustrationSymbol: '+ ◇',
+    iconUrl: `${import.meta.env.BASE_URL}icons/gamepad-2.svg`,
     categoryLabel: 'Proyecto en equipo',
     description: 'Videojuego 2D desarrollado por un equipo de tres personas con Unity y C#. Combina la revisión de documentos y el control de acceso con la exploración, las misiones y la gestión de recursos a lo largo de distintas jornadas.',
     features: [
