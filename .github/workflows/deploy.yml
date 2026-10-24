@@ -27,7 +27,7 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
       - name: Compilar
-        run: npm run build -- --base=/portfolio/
+        run: npm run build -- --base=/Portafolio/
       - name: Configurar Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
       - name: Subir web
